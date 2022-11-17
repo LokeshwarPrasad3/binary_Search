@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// this is binary search function 
+// it is very imp searching 
+
 bool BinarySearch(int arr[], int size, int key)
 {
     int start = 0, end = size-1;
@@ -43,5 +46,6 @@ int main()
         cout << "Element is found in array";
     else
         cout << "Not found element in array";
+
     return 0;
 }
