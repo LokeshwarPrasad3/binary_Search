@@ -41,6 +41,7 @@ int main()
 
     // function calling
     bool Ans = BinarySearch(arr, size, key);
+    // 1 means present 0 means not present
     if(Ans == 1)
         cout << "Element is found in array";
     else
