@@ -2,7 +2,6 @@
 using namespace std;
 
 // this is binary search function 
-// it is very imp searching 
 
 bool BinarySearch(int arr[], int size, int key)
 {
